@@ -12,9 +12,7 @@ Dependency Injection: Hilt <br/>
 Architecture: MVI <br/>
 API: https://www.jsonkeeper.com/b/IKQQ, https://www.jsonkeeper.com/b/JNYL <br/>
 
-
-https://github.com/user-attachments/assets/f612d05b-6c8f-459d-93c5-a8edcb709241
-
+https://github.com/user-attachments/assets/eccd4996-6314-4897-92df-374c07105e5e
 
 
 
