@@ -1,7 +1,7 @@
-package com.example.starwars.data.mapper
+package com.example.starwars.data.remote.mapper
 
 import com.example.starwars.data.local.PlayerInfoEntity
-import com.example.starwars.data.remote.response.PlayerItemDto
+import com.example.starwars.data.remote.model.PlayerItemDto
 import com.example.starwars.domain.model.Player
 
 fun PlayerItemDto.toPlayerInfoEntity() : PlayerInfoEntity {

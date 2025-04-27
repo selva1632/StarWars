@@ -1,8 +1,8 @@
-package com.example.starwars.data.mapper
+package com.example.starwars.data.remote.mapper
 
 import com.example.starwars.data.local.MatchInfoEntity
 import com.example.starwars.data.local.PlayerInfoEntity
-import com.example.starwars.data.remote.response.MatchItemDto
+import com.example.starwars.data.remote.model.MatchItemDto
 import com.example.starwars.domain.model.Match
 import com.example.starwars.domain.model.MatchResult
 

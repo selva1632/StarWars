@@ -1,7 +1,7 @@
 package com.example.starwars.data.remote
 
-import com.example.starwars.data.remote.response.MatchItemDto
-import com.example.starwars.data.remote.response.PlayerItemDto
+import com.example.starwars.data.remote.model.MatchItemDto
+import com.example.starwars.data.remote.model.PlayerItemDto
 import retrofit2.http.GET
 
 interface ApiService {

@@ -6,6 +6,7 @@ import com.example.starwars.domain.repository.PlayerRepository
 import com.example.starwars.screen.UiEvent
 import com.example.starwars.screen.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
@@ -31,7 +32,7 @@ class PlayerInfoViewModel @Inject constructor(
     }
 
     private fun fetchData() {
-        viewModelScope.launch {
+        viewModelScope.launch(Dispatchers.IO) {
             _state.update { state -> state.copy(isLoading = true) }
             playerRepository.fetchPlayerInfoAndSaveInDB().collect { playerInfoList ->
                 _state.update { state ->
