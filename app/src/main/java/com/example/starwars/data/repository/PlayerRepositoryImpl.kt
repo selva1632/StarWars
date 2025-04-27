@@ -2,11 +2,11 @@ package com.example.starwars.data.repository
 
 import android.util.Log
 import com.example.starwars.data.local.PlayerDB
-import com.example.starwars.data.mapper.getResults
-import com.example.starwars.data.mapper.toMatch
-import com.example.starwars.data.mapper.toMatchInfoEntity
-import com.example.starwars.data.mapper.toPlayer
-import com.example.starwars.data.mapper.toPlayerInfoEntity
+import com.example.starwars.data.remote.mapper.getResults
+import com.example.starwars.data.remote.mapper.toMatch
+import com.example.starwars.data.remote.mapper.toMatchInfoEntity
+import com.example.starwars.data.remote.mapper.toPlayer
+import com.example.starwars.data.remote.mapper.toPlayerInfoEntity
 import com.example.starwars.data.remote.ApiService
 import com.example.starwars.domain.model.MatchHistoryItem
 import com.example.starwars.domain.model.MatchResult

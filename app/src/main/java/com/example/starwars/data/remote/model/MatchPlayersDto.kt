@@ -1,4 +1,4 @@
-package com.example.starwars.data.remote.response
+package com.example.starwars.data.remote.model
 
 data class MatchPlayersDto(
     val id: Int,
